@@ -1,0 +1,9 @@
+train: coco128/images/train
+val: coco128/images/valid
+test: #test-dev2017.txt
+
+nc: 3
+names: ['rotted','scratch','withered']
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip

@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body onresize="windowResized()">
+  <h1 class='title'>Object detection</h1>
+  <div id="container_left">
+    <p></p>
+    
+    <div class="result-color">
+      <!--이미지 업로드-->
+      <div class="upload-container">
+        <p id="instruction" class="green-color"></p>
+        <button id="uploader-btn" onClick="clickUploader()">UPLOAD</button>
+        <img src="images/apple.png" width="350" height="350" id="image" class="center">
+        <input name="images/demo.jpg" type="file" id="fileUploader" accept="image/*" onChange="handleFiles()">
+      </div>
+
+      <!-- 이미지 출력-->
+  </div> 
+  <div id="container_right">
+      <div class="result-container">
+        <table id="res_table">
+          <p id="warning" class="result-color"></p>
+          <p class="result-color">RESULT</p>
+          <tr>
+            <td colspan="2">
+              <p class="res_name">Object Detection</p>
+              <img src= "images/apple.png" width="350" height="350" id="fruitsImg" class="center" >
+            </td>
+          </tr>
+          <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+          <tr>
+            <td>
+              <p class="res_name">Defect Detection</p>
+              <img src="images/apple.png" width="350" height="350" id="resultImg">
+            </td>
+            <td>
+              <p class="res_name">Gradient Map</p>
+              <img src="images/apple.png" width="350" height="350" id="gradImg">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+ <!--
+Copyright (c) 2018 ml5
+
+This software is released under the MIT License.
+https://opensource.org/licenses/MIT
+-->
