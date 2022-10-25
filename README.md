@@ -15,6 +15,8 @@
 ![image](https://user-images.githubusercontent.com/64565005/195790058-df6db475-9a18-4335-920c-e58955dcab52.png)
 
 ### 4.소개 및 시연 영상
+<!--[![영상 이름](유튜브 영상 썸네일 URL)](유투브 영상 URL)-->
+[![06조 사진 또는 영상을 캡처 후 불량 판별](http://img.youtube.com/vi/TfYPBtqk5b0/0.jpg)](https://www.youtube.com/watch?v=TfYPBtqk5b0)    
 
 ### 5.사용법
 
